@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+}
+
+body{
+	margin: auto;
+	background-color: #F0F2EF;
+}
+
+
+h1,h2{
+	font-family: "Elsie", cursive;
+	color: #5AB5A2;
+}
+
+p{
+	font-family: "Raleway", arial, sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #312F2F;
+}
+
+h1{
+	font-size: 100px;
+	text-align: center;
+	padding-top: 160px;
+	margin: 0;
+}
+
+h2{
+	font-size: 65px;
+}
+
+h5{
+	font-family: "Raleway", arial, sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	color: #96343E;
+}
+
+a{
+	text-decoration: none;
+	font-family: "Raleway", arial, sans-serif;
+	font-size: 13px;
+	color: #312F2F;
+}
+
+ul{
+	display: inline-block;
+	float: right;
+}
+
+li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 10px 0 10px;
+}
+
+.menu{
+	text-decoration: none;
+	font-family: "Raleway", arial, sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #96343E;
+	letter-spacing: 2px;
+}
+
+
+nav{
+	width: 95%;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-sizing: border-box;
+	margin: auto;
+}
+
+header{
+	height: 768px;
+	padding-top: 20px;
+}
+
+.setenta{
+	width: 70%;
+	margin: auto;
+}
