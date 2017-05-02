@@ -5,15 +5,15 @@
 	<title>Griselda Losada</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Elsie:900|Raleway:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Elsie:900|Raleway:400,600" rel="stylesheet">
 	<script src="https://use.fontawesome.com/65749ea90f.js"></script>
 </head>
 
 <body>
-	<header class="contenedor">
-		<div>
+	<header>
+		<div class="contenedor headercontenedor">
 			<nav class="navprincipal">
-				<a href="index.html" alt="gri"><img src="http://placehold.it/120x60"></a>
+				<a class="logo" href="index.html" alt="gri"><img src="http://placehold.it/120x60"></a>
 				<ul>
 					<li>
 						<a class="menu" href="sobremi.html">Sobre mí</a>
@@ -26,14 +26,28 @@
 					</li>
 				</ul>
 			</nav>
-			<div class="setenta">
+
+			<div class="ochenta">
 				<h1>Griselda Losada</h1>
-				<p>Diseñadora gráfica - Portfolio</p>
+				<p>Diseñadora gráfica</p>
+				<a href="sobremi.html">
+					<div class="boton">Más info</div>
+				</a>
 			</div>
+
+			<nav class="navfijo">
+				<ul>
+					<li id="inicioid"><a href="#"></a></li>
+					<li id="sobreid"><a href="#sobremi"></a></li>
+					<li id="proyid"><a href="#editorial"></a></li>
+					<li id="cierreid"><a href="#cierre"></a></li>
+				</ul>
+			</nav>
+
 			<nav class="contenedor">
 				<ul>
 					<li class="icono">
-						<a href="#">
+						<a href="https://www.facebook.com/grichulosada">
 							<span class="fa fa-facebook"></span>
 						</a>
 						<a href="https://www.behance.net/grichulosada" target="_blank">
@@ -48,87 +62,137 @@
 		</div>
 	</header>
 
+
+
+
 	<section>
-		<div class="fondoazul editorial">
-			<h2>Editorial</h2>
-			<p>Revistas, libros, vinilos y piezas especiales</p>
+		<div id="sobremi">
+			<h2>Sobre mí</h2>
+			<div class="sobremidelante">
+				<div class="ochenta">
+					<article>
+						<a href="sobremi.html">
+							<img src="imagenes/sobremi-02.png">
+							<h4>Estudios</h4>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.</p>
+						</a>
+					</article>
+					<article>
+						<a href="sobremi.html">
+							<img src="imagenes/sobremi-01.png">
+							<h4>Intereses</h4>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.</p>
+						</a>
+					</article>
+					<article>
+						<a href="sobremi.html">
+							<img src="imagenes/sobremi-03.png">
+							<h4>Habilidades</h4>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.</p>
+						</a>
+					</article>
+
+					<a href="sobremi.html">
+						<div class="boton2">Seguir leyendo</div>
+					</a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+
+
+
+
+
+	<section class="fondoazul">
+		<div id="portfolio">
 			<div>
-				<article>
-					<a href="#"><img src="http://placehold.it/300x100"></a>
-				</article>
-				<article>
-					<a href="#"><img src="http://placehold.it/850x40"></a>
-				</article>
-				<article>
-					<a href="#"><img src="http://placehold.it/500x200"></a>
-				</article>
-				<article>
-					<a href="#"><img src="http://placehold.it/80x150"></a>
-				</article>
+				<div>
+					<h2>Portfolio</h2>
+					<p>Galería de algunos proyectos realizados</p>
+				</div>
+				<ul class="galeriaport">
+					<li>
+						<a id="gal1" href="proyectos.html">Branding</a>
+					</li>
+					<li>
+						<a id="gal2" href="proyectos.html"></a></li>
+					<li>
+						<a id="gal3" href="proyectos.html">Editorial</a></li>
+					<li>
+						<a id="gal4" href="proyectos.html">Editorial</a></li>
+				</ul>
+			</div>			
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+	<section>
+		<div id="cierre" class="contenedor">
+			<div class="setenta">
+				<img src="imagenes/cita.png">
 			</div>
 		</div>
 	</section>
 
-	<section>
-		<div class="fondobordo">
-			<h2>Branding</h2>
-			<p>Creación de marca y despliegues de piezas</p>
-			<div>
-				<a href="#"><img src="http://placehold.it/80x150"></a>
-				<a href="#"><img src="http://placehold.it/400x100"></a>
-				<a href="#"><img src="http://placehold.it/250x200"></a>
-			</div>
-		</div>
-	</section>
 
-	<section>
-		<div>
-			<h2>Sub título</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			<div>
-				<a href="#"><img src="http://placehold.it/700x100"></a>
-				<a href="#"><img src="http://placehold.it/90x150"></a>
-				<a href="#"><img src="http://placehold.it/300x30"></a>
-			</div>
-		</div>
-	</section>
 
-	<section>
-		<div>
-			<h2>Sub título</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			<div>
-				<a href="#"><img src="http://placehold.it/400x100"></a>
-				<a href="#"><img src="http://placehold.it/500x200"></a>
-				<a href="#"><img src="http://placehold.it/100x50"></a>
-				<a href="#"><img src="http://placehold.it/700x50"></a>
-			</div>
-		</div>
-	</section>
 
-	<footer>
+
+
+
+
+
+
+
+
+
+
+
+
+	<footer id="footerseccion">
 		<div class="contenedor">
-			<nav>
-				<div class="contacto">
-					<a href="index.html"><img src="http://placehold.it/100x60"></a>
+			<div class="ochenta">
+				<nav>
+					<div>
+						<a href="index.html"><img src="http://placehold.it/120x70"></a>
+					</div>
+
+					<div>
+						<h5>Encontrame en</h5>
+						<ul>
+							<li><a href="https://www.behance.net/grichulosada" target="_blank">Behance</a></li>
+							<li><a href="https://www.linkedin.com/in/griselda-losada-703714141/" target="_blank">Linkedin</a>
+							</li>
+							<li><a href="https://www.facebook.com/grichulosada" target="_blank">Facebook</a></li>
+							<li><a href="#" target="_blank">Instagram</a></li>
+						</ul>
+					</div>
+				</nav>
+				<div class="infofooter">
+					<div>
+						<h5>Contacto</h5>
+						<p>Tel.: 15-4444-4444</p>
+						<p>E-Mail: grilosada@gmail.com</p>
+					</div>
+					<div>
+						<h5>Sobre mí</h5>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula</p>
+					</div>
 				</div>
-				<div class="contacto">
-					<h5>Encontrame en</h5>
-					<ul class="contacto">
-						<li><a href="https://www.behance.net/grichulosada" target="_blank">&#8901; Behance</a></li>
-						<li><a href="https://www.linkedin.com/in/griselda-losada-703714141/" target="_blank">&#8901; Linkedin</a>
-						</li>
-					</ul>
-					<ul class="contacto">
-						<li><a href="https://www.facebook.com/grichulosada" target="_blank">&#8901; Facebook</a></li>
-						<li><a href="#" target="_blank">&#8901; Instagram</a></li>
-					</ul>
-				</div>
-			</nav>
-			<div class="contacto">
-				<h5>Contacto</h5>
-				<p>15-4444-4444</p>
-				<p>grilosada@gmail.com</p>
+				<p class="copyrights">©2017 Copyright - Griselda Losada - All Rights Reserved</p>
 			</div>
 		</div>
 	</footer>
